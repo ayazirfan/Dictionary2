@@ -37,6 +37,7 @@ var PersonelListesi = new Dictionary<int, Personel>()
 {120, new Personel("Ahmet", "Can", 9000)}
 };
 PersonelListesi.Add(100, new Personel("Zeynep", "Coskun", 5000));
+PersonelListesi.Add(111, new Personel( "Ali", "Polat", 8500));
 foreach (var p in PersonelListesi)
 {
     System.Console.WriteLine(p);
